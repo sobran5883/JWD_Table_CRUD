@@ -67,8 +67,10 @@ function App() {
 
         <div className="w-full">
           <h1 className='text-lg font-semibold text-red-800'>Table</h1>
-          <div className="w-full flex flex-col md:flex-row items-center md:justify-between gap-4 mb-2">
-            <TaskFilter tasks={tasks} onFilterChange={handleFilterChange} />
+          <div className="w-full flex flex-col md:flex-row items-center md:justify-between gap-2 lg:gap-4 mb-2">
+            <div className='w-full'>
+              <TaskFilter tasks={tasks} onFilterChange={handleFilterChange} />
+            </div>
             <input
               type="text"
               placeholder="Search tasks..."

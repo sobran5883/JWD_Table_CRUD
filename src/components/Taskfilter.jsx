@@ -8,7 +8,7 @@ function TaskFilter({ tasks, onFilterChange }) {
     );
   
     return (
-      <div className="border p-1 border-black">
+      <div className="border p-1 border-black w-fit">
         <label htmlFor="task-filter">Filter Tasks by Status: </label>
         <select
           className="border border-black p-1"

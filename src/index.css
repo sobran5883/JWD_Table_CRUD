@@ -16,3 +16,9 @@
     padding: 16px; /* Add some padding */
     cursor: pointer;
 }
+
+.tabulator-header-contents{
+    overflow-x: auto;
+    scrollbar-width: none;
+    height: 29px;
+}    
