@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Centered Popup Container */
+.tabulator-popup-container {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 9999 !important; /* Above the overlay */
+    pointer-events: auto !important;
+    background-color: #ffffff; /* White background for the popup */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 16px; /* Add some padding */
+    cursor: pointer;
+}
