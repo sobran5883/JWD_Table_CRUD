@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import TaskTable from './components/TaskTable';
 import AddTaskForm from './components/AddTaskFom';
-import TaskFilter from './components/TaskFilter';
+import TaskFilter from './components/Taskfilter';
 import toast, { Toaster } from 'react-hot-toast';
 
 function App() {
